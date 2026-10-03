@@ -1,0 +1,75 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>My Portfolio</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; } body { font-family: Arial, sans-serif; background: #0f172a; color: #f8fafc; line-height: 1.6; } header { background: #020617; padding: 20px 8%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; } .logo { font-size: 25px; font-weight: bold; color: #38bdf8; } nav a { color: white; text-decoration: none; margin-left: 25px; transition: 0.3s; } nav a:hover { color: #38bdf8; } section { padding: 80px 8%; } .hero { min-height: 90vh; display: flex; align-items: center; justify-content: center; text-align: center; } .hero h1 { font-size: 55px; margin-bottom: 15px; } .hero h1 span { color: #38bdf8; } .hero p { font-size: 20px; color: #cbd5e1; margin-bottom: 30px; } .btn { display: inline-block; padding: 12px 25px; background: #38bdf8; color: #020617; text-decoration: none; border-radius: 8px; font-weight: bold; } .section-title { text-align: center; font-size: 35px; margin-bottom: 40px; color: #38bdf8; } .about { max-width: 800px; margin: auto; text-align: center; color: #cbd5e1; } .skills-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; } .skill { background: #1e293b; padding: 25px; text-align: center; border-radius: 12px; transition: 0.3s; } .skill:hover { transform: translateY(-8px); background: #334155; } .skill h3 { color: #38bdf8; margin-bottom: 10px; } .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; } .project { background: #1e293b; padding: 25px; border-radius: 12px; } .project h3 { color: #38bdf8; margin-bottom: 10px; } .project p { color: #cbd5e1; } .contact { text-align: center; } .contact p { margin: 10px 0; color: #cbd5e1; } footer { background: #020617; text-align: center; padding: 20px; color: #94a3b8; } @media (max-width: 700px) { header { flex-direction: column; gap: 15px; } nav a { margin: 0 8px; } .hero h1 { font-size: 40px; } } </style> </head> <body> <!-- Navigation --> <header> <div class="logo">My Portfolio</div>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+</header> <!-- Home --> <section class="hero" id="home"> <div> <h1>Hello, I'm <span>Your Name</span></h1> <p>Web Developer | Designer | Programmer</p> <a href="#contact" class="btn">Contact Me</a> </div> </section> <!-- About --> <section id="about"> <h2 class="section-title">About Me</h2>
+<div class="about">
+  <p>
+    I am a passionate developer interested in creating modern,
+    responsive and user-friendly websites. I enjoy learning new
+    technologies and building creative projects.
+  </p>
+</div>
+
+</section> <!-- Skills --> <section id="skills"> <h2 class="section-title">My Skills</h2>
+<div class="skills-container">
+  <div class="skill">
+    <h3>HTML</h3>
+    <p>Building semantic and structured web pages.</p>
+  </div>
+
+  <div class="skill">
+    <h3>CSS</h3>
+    <p>Creating responsive and attractive designs.</p>
+  </div>
+
+  <div class="skill">
+    <h3>JavaScript</h3>
+    <p>Adding interactive features to websites.</p>
+  </div>
+
+  <div class="skill">
+    <h3>Python</h3>
+    <p>Programming, automation and application development.</p>
+  </div>
+
+  <div class="skill">
+    <h3>Java</h3>
+    <p>Object-oriented programming and application development.</p>
+  </div>
+
+  <div class="skill">
+    <h3>SQL</h3>
+    <p>Working with databases and managing data.</p>
+  </div>
+</div>
+
+</section> <!-- Projects --> <section id="projects"> <h2 class="section-title">My Projects</h2>
+<div class="projects">
+  <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>A responsive personal portfolio website using HTML and CSS.</p>
+  </div>
+
+  <div class="project">
+    <h3>Student Management System</h3>
+    <p>A project for managing student information and records.</p>
+  </div>
+
+  <div class="project">
+    <h3>Web Application</h3>
+    <p>An interactive web application developed using JavaScript.</p>
+  </div>
+</div>
+
+</section> <!-- Contact --> <section id="contact" class="contact"> <h2 class="section-title">Contact Me</h2>
+<p>Email: yourname@email.com</p>
+<p>Phone: +91 XXXXX XXXXX</p>
+<p>Location: India</p>
+
+</section> <footer> <p>© 2026 Your Name. All Rights Reserved.</p> </footer> </body> </html
